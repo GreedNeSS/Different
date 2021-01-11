@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<p id="p">Example: <i>italic</i> and <b>bold and steel</b></p>
+	From <input type="number" id="start" value="1"> - To <input type="number" id="end" value="4">
+	<button id="button">Click to select</button>
+
+	<p id="result"></p>
+
+	<p id="sel">Выдули меня: <i>курсив</i> и <b>жирный</b></p>
+
+	<p>От <input type="text" id="fromSel" disabled> - До <input type="text" id="toSel" disabled></p>
+
+	<p>Склонированно: <span id="clone"></span> Текст: <span id="astext"></span></p>
+
+	<textarea id="area" style="width:80%;height: 60px;">
+	Выделите что-нибудь в этом тексте, чтобы обновить значения ниже.
+	</textarea>
+	<br>
+	От <input type="text" id="fromArea"> - До <input type="text" id="toArea">
+	<br>
+	<input type="text" id="intSel" value="Select here and click the button">
+	<button id="wrapBut">Обернуть выделение звёздочками *...*</button><br>
+
+	<input type="text" class="replaceInp" value="Замените ЭТО в тексте"><br>
+	<button class="replaceBut">Replace</button><br>
+
+	<input type="text" class="insertInp" value="Текст Текст Текст Текст Текст Текст"><br>
+	<button class="insertBut">Вставить "ПРИВЕТ" на месте курсора</button><br>
+
+	<script src="js/Selection and Range.js"></script>
+</body>
+
+</html>
